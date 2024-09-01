@@ -1,0 +1,10 @@
+workflow:
+  - step: "read file"
+    action: "read"
+    path: "fruits/fruits.csv"
+  - step: "process data"
+    action: "script"
+    script: "fruits/fruits.js"
+  - step: "write file"
+    action: "write"
+    path: "fruits/fruits-with-price.csv"

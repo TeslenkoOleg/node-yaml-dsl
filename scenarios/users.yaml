@@ -1,0 +1,12 @@
+workflow:
+  - step: "file"
+    action: "read"
+    path: "users/users.csv"
+  - step: "process data"
+    action: "script"
+    script: "users/users.js"
+  - step: "insert results"
+    action: "insertIntoDB"
+    database: "mysql"
+    fields: "id, age, name"
+    query: "INSERT INTO users (id, age, name) VALUES (?, ?, ?)"

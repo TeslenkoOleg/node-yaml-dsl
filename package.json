@@ -1,0 +1,24 @@
+{
+  "name": "yaml-dsl",
+  "version": "1.0.0",
+  "description": "Domain specific language with YAML scenario and node.js as an enviroment",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeslenkoOleg/node-yaml-dsl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeslenkoOleg/node-yaml-dsl/issues"
+  },
+  "homepage": "https://github.com/TeslenkoOleg/node-yaml-dsl#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}
